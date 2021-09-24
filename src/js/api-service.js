@@ -17,7 +17,7 @@ export default class ApiService {
             size: '24',
             page: this.page,
             sort: 'random',
-            countryCode: 'ES',
+            countryCode: 'CA',
 
         })
         const url = `${BASE_URL}events.json?&apikey=${API_KEY}&${params}`;
